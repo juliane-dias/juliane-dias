@@ -41,7 +41,7 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}name: generate animation
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} name: generate animation
 
 on:
   # run automatically every 24 hours
